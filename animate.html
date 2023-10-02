@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #333;
+        padding: 20px;
+         border-radius: 5px;
+    }
+
+
+    .boxes{
+       margin-bottom: 50px;
+      
+    }
+    .box1{
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        animation-name: animated;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+        border-radius: 5px;
+    }
+
+@keyframes animated{
+    to{
+        width: 800px;
+        background-color: green;
+    }
+}
+    .box2{
+        margin-top: 20px;
+        background-color: coral;
+        width: 200px;
+        height: 50px;
+        animation-name: animated2;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+    }
+
+@keyframes animated2{
+    to{
+        width: 600px;
+    }
+}
+    .box3{
+        margin-top: 20px;
+        background-color: yellow;
+        width: 200px;
+        height: 50px;
+        animation-name: animated3;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+    }
+
+@keyframes animated3{
+    to{
+        width: 500px;
+    }
+}
+
+.btn{
+    background-color: coral;
+    margin: auto;
+    width: 10%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 2.2s;
+    transition-timing-function: ease-in-out;
+    border-left: #ffff solid 5px;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+.buttons{
+   margin: 40px;
+}
+</style>
+<body>
+    <div class="boxes">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</div>
+
+<div class="btn">
+    Read More
+</div>
+
+
+</div>
+</body>
+</html>

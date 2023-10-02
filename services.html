@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+body{
+@import url ('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Open+Sans:wght@300&family=Sarala&display=swap');
+
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+}
+
+.header::after{
+    content: '';
+    background: url('./images/cases/cases6.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.btn{
+    padding: 20px;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 10%;
+    margin: auto;
+    transition-property: background;
+    transition-duration: 2s;
+}
+
+.btn:hover{
+    background-color: green;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+ 
+}
+
+
+</style>
+<body>
+   <div class="header">
+    <h1>Merit Design Agency</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta similique, consectetur necessitatibus quidem impedit veniam dignissimos sapiente commodi. Maxime, reiciendis. 
+        Quibusdam vel velit veniam aliquam odit, non nulla. Maxime, sed!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi voluptate numquam molestias pariatur ea quia obcaecati architecto enim, necessitatibus, modi corporis repudiandae libero. Velit quibusdam obcaecati magni tempore cumque dignissimos beatae earum harum nam alias consectetur nisi asperiores, delectus aliquid voluptas fugiat dicta esse impedit quidem doloremque accusamus deleniti expedita!</p>
+    </div> 
+<div class="btn">
+    <a href="www.google.com" target="_blank">Read More</a>
+</div>
+</body>
+</html>

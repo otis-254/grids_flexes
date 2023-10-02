@@ -203,9 +203,14 @@ margin-top: 20px;
 }
 
 
-.blog{
-
+.blog .parag{
+ align-items: start;
+  width: 800px;
+  margin: auto;
+  width: 50%;
 }
+
+
  .blog .blog-image{
   display: inline-block;
 flex-direction: row;
@@ -224,10 +229,98 @@ flex-direction: row;
 
  .flex-items img{
   width: 100%;
-padding: 20px;
-border-radius: 50px;
+  padding: 20px;
+  border-radius: 50px;
  }
+
 
  .flex-items p, h4{
   text-align: center;
  }
+
+
+ #contact-us{
+  height: 450px;
+margin-top: 20px;
+}
+
+#contact-us .contact-img{
+  float: left;
+  width: 50%;
+  background: url('../images/home/contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+#contact-us  .contact{
+  float: right;
+  width: 50%;
+  max-height: 100%;
+  color: #333;
+  text-align: center;
+  overflow: hidden;
+  line-height: 1.5em;
+  min-height: 100%;
+}
+
+#contact-us  .contact p{
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+text-align: left;
+color: #fff;
+margin-top: 20px;
+}
+
+#contact-us  .contact h2{
+  padding-left: 30px;
+  padding-top: 30px;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 40px;
+  line-height: 1em;
+}
+
+.container{
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 320px;
+}
+
+.form-wrap{
+  background-color: lavender;
+  padding: 25px 35px;
+  font-size: 15px;
+  line-height: 1.5em;
+  width: 50%;
+  text-align: left;
+}
+
+.form-wrap h2{
+  text-align: left;
+}
+.form-wrap .form-group input{
+  width: 100%;
+  border: #ddd solid 1px;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.form-wrap .form-group p{
+  text-align: left;
+}
+
+.form-group{
+  margin-top: 15px;
+}
+
+
+.form-wrap .btn{
+  width: 100%;
+  cursor: pointer;
+}
+
+.text{
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
